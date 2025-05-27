@@ -1,10 +1,10 @@
 const CACHE_NAME = 'apoyo-emocional-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png',
+  '/ApoyoEmocionalAI/',
+  '/ApoyoEmocionalAI/index.html',
+  '/ApoyoEmocionalAI/manifest.json',
+  '/ApoyoEmocionalAI/icon-192.png',
+  '/ApoyoEmocionalAI/icon-512.png'
   // Puedes añadir aquí otros recursos como CSS, JS externos, etc.
 ];
 
