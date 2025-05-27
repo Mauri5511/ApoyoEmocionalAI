@@ -130,4 +130,18 @@
 </body>
 <script src="https://cdn.botpress.cloud/webchat/v2.5/inject.js"></script>
 <script src="https://files.bpcontent.cloud/2025/03/09/22/20250309220915-SPWU7P07.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('/ApoyoEmocionalAI/service-worker.js')
+        .then(function (registration) {
+          console.log('Service Worker registrado con éxito:', registration.scope);
+        }, function (error) {
+          console.log('Error al registrar el Service Worker:', error);
+        });
+    });
+  }
+</script>
+
 </html>
