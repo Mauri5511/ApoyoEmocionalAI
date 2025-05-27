@@ -1,7 +1,7 @@
 {
   "name": "Tu Espacio de Apoyo Emocional",
   "short_name": "Apoyo Emocional",
-  "start_url": ".",
+  "start_url": "/ApoyoEmocionalAI/",
   "display": "standalone",
   "background_color": "#f4f4f4",
   "theme_color": "#007bff",
